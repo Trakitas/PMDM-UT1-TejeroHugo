@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -14,22 +13,27 @@
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_smartphone"
+        android:src="@drawable/ic_movil"
         app:layout_constraintBottom_toTopOf="@id/textTitulo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/ic_movil"
+        tools:srcCompat="@drawable/ic_movil" />
 
     <TextView
         android:id="@+id/textTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/material_dynamic_neutral80"
+        android:fontFamily="cursive"
         android:text="@string/titulo"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageLogo" />
 
@@ -37,10 +41,14 @@
         android:id="@+id/textSubtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/material_dynamic_neutral70"
+        android:fontFamily="cursive"
         android:text="@string/subtitulo"
+        android:textColor="#263238"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textTitulo" />
 
@@ -48,11 +56,29 @@
         android:id="@+id/textDescripcion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="248dp"
+        android:background="@color/material_dynamic_neutral80"
+        android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/descripcion"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textSubtitulo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="356dp"
+        android:background="@color/material_dynamic_neutral80"
+        android:fontFamily="cursive"
+        android:text="@string/autor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:text="@string/autor" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

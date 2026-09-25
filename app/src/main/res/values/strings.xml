@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">PMDM UT1</string>
-    <string name="titulo">Aplicación de ejemplo</string>
-    <string name="subtitulo">Programación Multimedia y Dispositivos Móviles</string>
-    <string name="descripcion">Proyecto base para analizar la estructura de una aplicación Android.</string>
+    <string name="app_name">UT1 - Hugo Tejero</string>
+    <string name="titulo">Nuevo titulo--> APP</string>
+    <string name="subtitulo">Mi propia aplicación para dispositivos moviles!</string>
+    <string name="autor">Hugo Tejero Serrano</string>
+    <string name="descripcion">Esta es mi primera vez usando Android studio</string>
 </resources>
