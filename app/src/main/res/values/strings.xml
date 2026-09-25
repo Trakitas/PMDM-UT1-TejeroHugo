@@ -3,5 +3,5 @@
     <string name="titulo">Nuevo titulo--> APP</string>
     <string name="subtitulo">Mi propia aplicación para dispositivos moviles!</string>
     <string name="autor">Hugo Tejero Serrano</string>
-    <string name="descripcion">Esta es mi primera vez usando Android studio</string>
+    <string name="descripcion">Esta es mi primera vez usando Android studio </string>
 </resources>
